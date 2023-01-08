@@ -1,19 +1,16 @@
 package com.example.mytest.application;
 
-import com.cj.library.BaseApplication;
-import com.sgcc.pda.baselibrary.application.HZBaseApplication;
-import com.sgcc.pda.baselibrary.utils.LogUtil;
+import android.app.Application;
 
 
 /**
  * Created by cj on 2021/7/19.
  */
-public class MyApplication extends BaseApplication {
+public class MyApplication extends Application {
 
     @Override
     public void onCreate() {
         super.onCreate();
-        LogUtil.init(true);
 
     }
 

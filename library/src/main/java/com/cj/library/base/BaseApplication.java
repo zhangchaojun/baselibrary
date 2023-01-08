@@ -1,4 +1,4 @@
-package com.cj.library;
+package com.cj.library.base;
 
 import android.app.Application;
 

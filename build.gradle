@@ -21,9 +21,6 @@ allprojects {
         google()
         jcenter()
 
-        flatDir {
-            dirs 'E:\\hezhong\\hzprojects\\libs'
-        }
     }
 }
 

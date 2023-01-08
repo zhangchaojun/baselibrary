@@ -10,7 +10,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
-        versionName '1.0.0'
+        versionName '1.0.3'
     }
 
     buildTypes {
@@ -40,7 +40,7 @@ uploadArchives {
         // 配置pom信息
         pom.groupId = "com.cj.library"
         pom.artifactId = "baselibrary"
-        pom.version = "1.0.0"
+        pom.version = "1.0.3"
         pom.packaging = "aar"
     }
 }

@@ -9,7 +9,6 @@ public class FileUtil {
         if (file == null) {
             return false;
         }
-
         return file.isFile();
     }
 }

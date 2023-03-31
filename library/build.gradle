@@ -31,16 +31,16 @@ dependencies {
 }
 
 
-
 def defaultLocalRepo = "file://" + new File(System.getProperty("user.home"), '.m2/repository').absolutePath
 uploadArchives {
     repositories.mavenDeployer {
+        print('制品包仓库地址：' + defaultLocalRepo)
         // 配置仓库地址
         repository(url: uri(defaultLocalRepo))
         // 配置pom信息
         pom.groupId = "com.cj.library"
-        pom.artifactId = "baselibrary"
-        pom.version = "1.0.4"
+        pom.artifactId = "baselibraryer"
+        pom.version = "1.0.5"
         pom.packaging = "aar"
     }
 }
